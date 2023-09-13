@@ -1,0 +1,66 @@
+html{
+    font-size: 10px;
+    background: url(./pexels-gtar.jpg) bottom center;
+    background-size: cover;
+    
+}
+
+body, html{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.heading{
+    display: flex;
+    flex: 1;
+    align-items: flex-start;
+    justify-content: space-around;
+    position: fixed;
+    overflow: hidden;
+    top: 70vh;
+}
+.heading h1{
+    color: #6F8FAF;
+    font-family: cursive;
+    margin-left: 35vw;
+    font-size: xxx-large;
+}
+.keys{
+    display: flex;
+    flex: 1;
+    min-height: 100vh;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+.key{
+    border: .4rem solid #4e332c;
+    border-radius: .5rem;
+    margin: 1rem;
+    font-size: 1.5rem;
+    padding: 1rem .5rem;
+    transition: all 3.07s ease;
+    width: 10rem;
+    text-align: center;
+    color: #6F8FAF;
+    background: rgba(0, 0, 0, 0.4);
+    text-shadow: 0 0 .5rem black;
+}
+
+.playing{
+    transform: scale(1.1);
+    border-color: peachpuff;
+    box-sizing: 0 0 1rem #ffc600;
+}
+
+kbd{
+    display: block;
+    font-size: 4rem;
+}
+
+.sound{
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color: #8b655a;
+}
